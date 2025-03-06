@@ -77,7 +77,7 @@ structure_vqvae:
 
 structure_gpt:
   name: Fine_GPT2_2part
-  layer_no: 3
+  layer_no: 2
   block_size: 15
   n_music: 437
   n_music_emb: 768
@@ -118,7 +118,7 @@ optimizer:
     gamma: 0.4
 
 exp_name: train_fine_gpt
-log_name: layer_number_3
+log_name: layer_number_2
 need_not_train_data: 0
 need_not_test_data: 1
 
